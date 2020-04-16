@@ -6,3 +6,8 @@ const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 returnFirstTwoDrivers(drivers)
 
 
+const returnLastTwoDrivers = function(drivers) {
+  return drivers.slice(-1, 2)
+}
+
+
