@@ -19,4 +19,8 @@ const createFareMultiplier = function (a){
   }
 }
 
+const fareDoubler = function(){
+  
+}
+
 
