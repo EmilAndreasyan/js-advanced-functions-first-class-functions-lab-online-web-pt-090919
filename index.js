@@ -9,13 +9,10 @@ returnFirstTwoDrivers(drivers)
 const returnLastTwoDrivers = function(drivers) {
   return drivers.slice(-2)
 }
-
-let drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 returnLastTwoDrivers(drivers)
 
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
-const selectingDrivers = function () {
-  return returnFirstTwoDrivers() && returnLastTwoDrivers()
-}
+const 
 
 
