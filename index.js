@@ -3,10 +3,15 @@ const returnFirstTwoDrivers = function (drivers) {
   return drivers.slice(0, 2)
 }
 
+let drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
+returnFirstTwoDrivers(drivers)
+
 const returnLastTwoDrivers = function(drivers) {
   return drivers.slice(-2)
 }
-const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
-returnFirstTwoDrivers(drivers)
+
+let drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
+returnLastTwoDrivers(drivers)
+
 
 
