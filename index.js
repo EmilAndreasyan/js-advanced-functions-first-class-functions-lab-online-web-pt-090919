@@ -14,4 +14,8 @@ let drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 returnLastTwoDrivers(drivers)
 
 
+const selectingDrivers = function () {
+  return returnFirstTwoDrivers() && returnLastTwoDrivers()
+}
+
 
